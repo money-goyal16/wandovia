@@ -36,8 +36,7 @@ TrailMuse helps you organize, track, and manage every aspect of your travel adve
 - Check the real-time weather of any destination using the **Open-Meteo API**.
 - Get accurate temperature, humidity, wind speed, and visibility metrics to plan your days better.
 
-### 🗺️ Interactive Maps & Currency Converter
-- Interactive map to pin locations and visualize your journey.
+### 💱 Currency Converter
 - Real-time currency conversion for managing expenses abroad.
 
 ---
