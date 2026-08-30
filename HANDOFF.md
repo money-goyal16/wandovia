@@ -1,6 +1,6 @@
-# TrailMuse — Work Completed So Far (Handoff Notes)
+# TrailMuse — Work Completed# Project Handoff Notes
 
-Original project: https://github.com/Prachi9506/Wandovia (renamed to TrailMuse)
+Original project renamed to TrailMuse
 
 ## Status: builds successfully, in progress
 
