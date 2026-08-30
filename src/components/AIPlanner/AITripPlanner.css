@@ -1,0 +1,115 @@
+.ai-planner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--spacing-2);
+  margin-bottom: var(--spacing-4);
+}
+
+.ai-planner-layout {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: var(--spacing-4);
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .ai-planner-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ai-planner-form {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-3);
+}
+
+.ai-planner-form .form-group {
+  margin-bottom: var(--spacing-2);
+}
+
+.ai-planner-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-2);
+}
+
+.ai-generate-btn {
+  width: 100%;
+  justify-content: center;
+  margin-top: var(--spacing-2);
+}
+
+.ai-error-banner {
+  background-color: rgba(220, 38, 38, 0.1);
+  color: var(--color-error, #DC2626);
+  border: 1px solid var(--color-error, #DC2626);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-2);
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--spacing-2);
+}
+
+.ai-itinerary-result {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-3);
+  min-height: 200px;
+}
+
+.ai-itinerary-summary {
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-3);
+  line-height: 1.6;
+}
+
+.ai-day-card {
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-2) var(--spacing-3);
+  margin-bottom: var(--spacing-2);
+}
+
+.ai-day-card h4 {
+  margin: 0 0 var(--spacing-1) 0;
+  color: var(--color-primary);
+}
+
+.ai-day-card ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.ai-day-card li {
+  margin-bottom: 4px;
+  color: var(--text-primary);
+}
+
+.ai-empty-hint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 260px;
+  text-align: center;
+  color: var(--text-tertiary);
+  gap: var(--spacing-2);
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+.ai-planner-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--spacing-2);
+  margin-top: var(--spacing-3);
+  padding-top: var(--spacing-3);
+  border-top: 1px solid var(--border-light);
+}
