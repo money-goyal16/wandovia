@@ -327,6 +327,12 @@ body {
   }
 }
 
+@media (max-width: 640px) {
+  .main-content {
+    padding-bottom: calc(60px + var(--spacing-3) + env(safe-area-inset-bottom, 0));
+  }
+}
+
 /* Utility classes */
 .text-center { text-align: center; }
 .text-right { text-align: right; }

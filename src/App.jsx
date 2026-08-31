@@ -5,6 +5,7 @@ import { ThemeProvider } from './contexts/ThemeContext';
 import { AuthProvider } from './contexts/AuthContext';
 import Header from './components/Layout/Header';
 import Sidebar from './components/Layout/Sidebar';
+import BottomNav from './components/Layout/BottomNav';
 import Dashboard from './components/Dashboard/Dashboard';
 import TripPlanner from './components/TripPlanner/TripPlanner';
 import AITripPlanner from './components/AIPlanner/AITripPlanner';
@@ -30,6 +31,7 @@ const AppLayout = () => (
           <Outlet />
         </main>
       </div>
+      <BottomNav />
     </div>
   </ProtectedRoute>
 );
