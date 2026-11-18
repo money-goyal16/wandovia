@@ -70,9 +70,10 @@ export const deleteTripApi = async (id) => {
 };
 
 // ---- AI ----
-export const generateItinerary = async ({ destination, days, interests, budgetLevel, pace }) => {
+export const generateItinerary = async ({ destination, country, days, interests, budgetLevel, pace }) => {
   const { data } = await api.post('/ai/itinerary', {
     destination,
+    country,
     days,
     interests,
     budgetLevel,
